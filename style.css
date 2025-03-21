@@ -1,0 +1,140 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #4caf50;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+/* Main Container */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 100px auto 0;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 3px solid #4caf50;
+}
+
+/* Sections */
+section {
+  background-color: #222;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.skill {
+  background-color: #4caf50;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Projects */
+.project {
+  background-color: #333;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 80%;
+  max-width: 500px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #2e7d32;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  padding: 10px;
+  margin-top: 20px;
+}

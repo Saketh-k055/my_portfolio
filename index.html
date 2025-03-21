@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Saketh K</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <!-- About Section -->
+      <section id="about">
+        <img
+          src="images/my_photo.png"
+          alt="Profile Picture"
+          class="profile-pic"
+        />
+        <h2>Saketh K</h2>
+        <h3>Full Stack Developer</h3>
+        <p>
+          Passionate Information Science student with expertise in Java, C,
+          HTML, CSS, and JavaScript. I enjoy problem-solving, web development,
+          and innovation. Let's connect and create something amazing!
+        </p>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <div class="skill">Java ★★★☆☆</div>
+          <div class="skill">C ★★★☆☆</div>
+          <div class="skill">HTML ★★★★☆</div>
+          <div class="skill">CSS ★★★★☆</div>
+          <div class="skill">JavaScript ★★★☆☆</div>
+          <div class="skill">SQL ★★★☆☆</div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>
+            Designed and developed a responsive portfolio website showcasing my
+            skills and projects.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Financial Chatbot</h3>
+          <p>
+            Created a chatbot for financial services using AI to assist users
+            with investments.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          Email: <a href="mailto:ksaketh891@gmail.com">ksaketh891@gmail.com</a>
+        </p>
+        <p>Phone: 9074302217</p>
+        <p>Location: Benjanapadavu, CEC</p>
+
+        <form action="https://httpbin.org/post" method="post">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Saketh K | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
